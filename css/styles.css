@@ -1,0 +1,84 @@
+@media (max-width: 1028px) {
+
+  h1 {
+    font-size: 5em;
+    }
+
+  body {
+    background-image:url('mobile sculpture.svg');
+    background-position: bottom;
+    background-attachment: fixed;
+    background-color: black;
+    background-size: cover;
+    font-family: 'Garamond', serif;
+    background-repeat:no-repeat;
+    }
+
+  .mob {
+    font-size: 2em;
+    padding: 50px;
+    text-align: center;
+    }
+
+  .main_text {
+    font-size: 2em;
+    }
+
+  .inner_body {
+    margin: 10px;
+  }
+}
+
+
+@media (min-width: 1029px){
+
+body {
+  margin: 0;
+  background-color: black;
+  background-image: url('Design ohne Titel.svg');
+  background-size: cover;
+  display: block;
+  position: center;
+  font-family: 'Garamond', serif;
+  background-repeat:no-repeat;
+  border-style: : none;
+}
+}
+
+h1 {
+  margin-left: 37px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: 10%;
+}
+
+a:hover {
+  color: white;
+  opacity: 50%;
+  text-decoration: none;
+}
+
+.fixed-bottom {
+  text-align: center;
+  bottom: 50px;
+  font-size: 2em;
+  right: 37px;
+}
+
+.inner_body {
+  margin: 50px;
+  color: white;
+}
+
+
+.main_text {
+  padding-top: 100px;
+}
+
+li{
+  padding-bottom: 40px;
+  font-size: 1.5em;
+}
