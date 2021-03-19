@@ -17,8 +17,12 @@
   .mob {
     font-size: 2em;
     padding: 50px;
-    text-align: left;
+    text-align: center;
     }
+  
+  .fixed-bottom {
+   text-align: left;  
+  }
 
   .main_text {
     font-size: 2em;
