@@ -10,7 +10,7 @@
     background-attachment: fixed;
     background-color: black;
     background-size: cover;
-    font-family: 'Garamond', serif;
+    font-family: 'Space Mono', monospace;    
     background-repeat:no-repeat;
     }
 
@@ -43,7 +43,7 @@ body {
   background-size: cover;
   display: block;
   position: center;
-  font-family: 'Garamond', serif;
+  font-family: 'Space Mono', monospace;
   background-repeat:no-repeat;
   border-style: : none;
 }
