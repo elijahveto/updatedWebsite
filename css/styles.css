@@ -1,0 +1,167 @@
+@media (max-width: 1028px) {
+
+  .title {
+    font-size: 2em;
+    }
+
+  .fixed-bottom {
+      margin-left:6%;
+      font-size: 0.5em;
+    }
+
+  .btn {
+      width: 80%;
+      margin-top: 30%;
+      height:100px;
+      margin-left:10%;
+      margin-right:10%;
+      font-size:1.5em;
+      font-weight:300;
+      /* align-items: center; */
+    }
+
+  body {
+    background-image:url('mobile sculpture.svg');
+    background-position: bottom;
+    background-attachment: fixed;
+    background-color: black;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:300;
+    background-repeat:no-repeat;
+    }
+
+  .mob {
+    font-size: 2em;
+    padding: 50px;
+    text-align: left;
+    }
+
+  .main_text {
+    font-size: 2em;
+    }
+
+  .inner_body {
+    margin: 10px;
+  }
+}
+
+
+@media (min-width: 1029px){
+
+
+body {
+  margin: 0;
+  background-color: black;
+  background-image: url('Design ohne Titel.svg');
+  background-size: cover;
+  display: block;
+  position: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:300;
+  background-repeat:no-repeat;
+  border-style: : none;
+}
+
+.fadeout {
+
+  -webkit-mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+  height:  800px;
+  width: 90%;
+  overflow-y: scroll;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:300;
+}
+
+}
+
+button {
+  width: 20%;
+}
+
+body#page {
+  margin: 0;
+  background-color: black;
+  background-image: url('simple.svg');
+  background-size: cover;
+  display: block;
+  position: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:300;
+  background-repeat:no-repeat;
+  border-style: : none;
+}
+
+
+h1 {
+  /* margin-left: 37px; */
+  margin-left:0;
+}
+
+.title h1 {
+  margin-left:0;
+  font-size: 2em;
+}
+
+
+
+
+p{
+  margin-bottom:3%;
+  font-size: 1.3em;
+  font-weight:100;
+}
+
+.s h1{
+  padding-bottom: 40px;
+  font-size: 1.5em;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: 10%;
+}
+
+a:hover{
+  text-decoration: none;
+  color:white;
+  font-weight: 10%;
+}
+
+.mob a:hover {
+  color: white;
+  opacity: 80%;
+  text-decoration: none;
+}
+
+.fixed-bottom {
+  text-align: center;
+  bottom: 50px;
+  font-size: 2em;
+  right: 37px;
+}
+
+.inner_body {
+  margin: 50px;
+  color: white;
+}
+
+
+.main_text {
+  margin-top: 10%;
+  margin-left:0;
+
+  /* padding-top: 100px; */
+}
+
+.main_text.fadeout {
+  margin-top: 5%;
+}
+
+img{
+  display:inline-block;
+  margin-right: 5%;
+  margin-left:0;
+}
